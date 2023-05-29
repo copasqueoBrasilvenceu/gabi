@@ -10,8 +10,12 @@ body{
 }
 .copade58 {
     color: white;
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 75% 25%;    
+}
+
+.copade58 img {
+    width: 100%;
 }
 .copa-div-58{
      width: 80%;
