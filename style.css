@@ -17,7 +17,7 @@ body{
 }
 
 .cabeçalho{
-    background-color: #FFFF00;
+    background-color: yellow;
     font-family: 'Castoro Titling', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -39,17 +39,18 @@ font-family: 'Schibsted Grotesk', sans-serif;
 
 .navbar {
     overflow: hidden;
-    background-color: #030124;
+    background-color: #55ca1a;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
+    
   }
   
   /* Links inside the navbar */
   .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color:black ;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
