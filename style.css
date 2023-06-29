@@ -1,17 +1,14 @@
-body {
-    background-color: #55ca1a;
+* {
+    background-color: #419e12;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:20px;
 } 
-body{
-    font-family: 'Poppins', sans-serif;
-}
-
-
 
 .copas {
     color: wheat;
     display: grid;
     grid-template-columns: 75%  25%; }
-
+    
 .copas img {
     width: 100%;
 }
@@ -19,16 +16,14 @@ body{
 .cabeçalho{
     background-color: yellow;
     font-family: 'Castoro Titling', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Schibsted Grotesk', sans-serif;
      color: blue;
-}
-.cabeçalho{
-    margin-top: 50px;
+     margin-top: 50px;
     display: flex ;
     justify-content: center;
-    
+}
+.cabeçalho h1{
+    background-color: yellow;
+    font-size: 40px;
 }
 .rodape{
   text-align: center;
@@ -39,10 +34,10 @@ font-family: 'Schibsted Grotesk', sans-serif;
 
 .navbar {
     overflow: hidden;
-    background-color: #55ca1a;
+    background-color: #419e12;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 80%; /* Full width */
+    width: 100%; /* Full width */
     
   }
   
@@ -61,3 +56,4 @@ font-family: 'Schibsted Grotesk', sans-serif;
     background: #ddd;
     color: black;
   }
+
